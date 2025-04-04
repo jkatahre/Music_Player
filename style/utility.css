@@ -1,0 +1,124 @@
+.border {
+    /* border: 2px solid white; */
+    margin: 3px;
+    border-radius: 12px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-spacebetween {
+    justify-content: space-between;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-black {
+    background-color: black;
+    color: rgb(138, 138, 138);
+}
+
+.bg-remove{
+    background: none;
+}
+.bg-1f {
+    background-color: #1f1f1f;
+}
+
+.bg-212121{
+    background-color: #121212;
+}
+
+.none-border {
+    border: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.mtop-15 {
+    margin-top: 15px;
+}
+
+.m-12 {
+    margin: 12px;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.m-13{
+    margin: 13px;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+.m-7{
+    margin: 7px;
+}
+.fs-14{
+    font-size: 14px;
+}
+
+.position-abslute{
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.radius-80{
+    border-radius: 80px;
+}
+
+.height-22vh{
+    height: 94px;
+}
+
+.width-35{
+    width: 35px;
+}
+.width-25{
+    width: 25px;
+}
+
+.song-play-btn{
+    margin: 0px 25px;
+}
+
+.m-78{
+    margin: 0px 78px;
+}
+
+@media screen and (max-width: 1300px) {
+    .m-13{
+        margin: 17px 23px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .width-35{
+        width: 45px;
+    }
+    .width-25{
+        width: 25px;
+    }
+
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/utility.css">
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header bg-black item-center">
+            <nav>
+                <div class="logo flex justify-spacebetween">
+                    <ul class="logoLis">
+                        <div class="hamburgar"> <img class="invert" src="assets/svg/hamburgar.svg" alt="hamburgar
+                            "></div>
+                        <li class="spotifyLogo cursor-pointer"><img class="invert" src="assets/svg/logo.svg"
+                                alt="Spotify"></li>
+                        <li class="homeLogo cursor-pointer"><img class="invert" src="assets/svg/home.svg" alt="home">
+                        </li>
+                        <!-- <li class="searchLogo cursor-pointer"><img class="invert" src="assets/svg/search.svg"
+                                alt="search" style=" width: 25px;"></li> -->
+                        <li class="nav-btns">
+                            <div class="searchLogo cursor-pointer flex bg-1f justify-spacebetween">
+                                <div class="input flex">
+                                    <div class="btn"><button class="invert search-icone none-border bg-remove"><img
+                                                src="assets/svg/search.svg" alt="search"></button></div>
+                                    <div class="inp"><input type="What do you want to play?"
+                                            placeholder="What do you want to play?" class="ip bg-1f">
+                                    </div>
+                                </div>
+                                <div class="search-line"></div>
+                                <div class="browser"><button class="invert none-border bg-remove"><img
+                                            src="assets/svg/browser.svg" alt="browser" class="img"></button></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="psdbtn flex">
+                        <li><button class="premium bg-black none-border cursor-pointer hover">
+                                <h4>Premium</h4>
+                            </button></li>
+                        <li><button class="support bg-black none-border cursor-pointer hover">
+                                <h4>Support</h4>
+                            </button></li>
+                        <li><button class="download bg-black none-border cursor-pointer hover">
+                                <h4>Download</h4>
+                            </button></li>
+                        <div class="hline"></div>
+                        <ul class="flex headbtn">
+                            <li class="install-li cursor-pointer hover"><img class="invert" src="assets/svg/install.svg"
+                                    alt="install"><button class="install bg-black none-border">
+                                    <h4>Install App</h4>
+                                </button></li>
+                            <li><button class="signUp bg-black none-border cursor-pointer hover">
+                                    <h4>Sing up</h4>
+                                </button></li>
+                            <li><button class="login none-border cursor-pointer">
+                                    <h4>Log in</h4>
+                                </button></li>
+                        </ul>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="mainContainer flex">
+                <div class="left border bg-212121">
+                    <div class="librari">
+                        <div class="cancel"><button class="bg-remove none-border cursor-pointer" ><img class="invert" src="assets/svg/cansel.svg" alt="cansel"></button></div>
+                        <div class="librarihead flex justify-spacebetween" >
+                            <h1 class="">Your Library</h1>
+                            
+                            <button class="bg-remove none-border"><img class="createFolder invert m-12" src="assets/svg/createF.svg" alt="create Folder"></button>
+                        </div>
+                        <!-- <div class="librarihead flex justify-spacebetween">
+                            alt="Create Folder"></button>
+                            <h4 class="mtop-15 m-15">Create your first playlistt</h4>
+                            <p class="mtop-15 m-15">it's easy, we'll help you</p>
+                            <button class="createPlaylist mtop-15 m-15 cursor-pointer">Create playlist</button>
+                        </div>
+                        <div class="browserProdcast border m-12 bg-1f">
+                            <h4 class="mtop-15 m-15 ">Let’s find some podcasts to follow</h4>
+                            <p class="mtop-15 m-15 ">We’ll keep you updated on new episodes</p>
+                            <button class="btnBrowserProduct mtop-15 m-15 cursor-pointer">Browse podcasts</button>
+                        </div> --> 
+                        <div class="songs-list bg-1f ">
+                            <ul class="ul-list">
+                                <!-- <li class="flex">
+                                    <img class="width-35" src="assets/svg/music.svg" alt="music">
+                                    <div class="list-card list-text">
+                                        <h5>Tum Tak</h5>
+                                        <p>A.R. Rahman</p>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+
+                        <div class="leftfooter">
+                            <div class="l1 flex">
+                                <div class=" fs-12 m-12"><a class="links"
+                                        href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
+                                </div>
+
+                                <div class=" fs-12 m-12"><a class="links"
+                                        href="https://www.spotify.com/in-en/safetyandprivacy"><span>Safety&PrivacyCenter</span></a>
+                                </div>
+
+                                <div class=" fs-12 m-12"><a class=" links"
+                                        href="https://www.spotify.com/jp/privacy/"><span>Privacy
+                                            Center</span></a></div>
+
+                            </div>
+                            <div class="l2 flex">
+
+                                <div class=" fs-12 m-12"><a class=" links"
+                                        href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy
+                                            Policy</span></a></div>
+                                <div class="fs-12 m-12"><a class="links"
+                                        href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About
+                                            Ads</span></a>
+                                </div>
+
+                                <div class="fs-12 m-12"><a class="links"
+                                        href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a>
+                                </div>
+                            </div>
+                            <div class="fs-12 m-12"><a class=" links"
+                                    href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a>
+                            </div>
+                        </div>
+                        <!-- <div class="encore m-12"><button class="encore-btn invert flex"><img src="assets/svg/encore.svg"
+                                    alt="encore-icone" class="encore-icone ">
+                                <h4 class="english">English</h4>
+                            </button>
+                        </div> -->
+
+                    </div>
+                </div>
+                <div class="right border bg-212121">
+                    <div class="tranding-song">
+                        <h1 class="righthead bg-1f">Tranding Songs</h1>
+                        <div class="card-container">
+                            <div class="flex card-container-div">
+                                 <!-- <div data-folder="HoneySingh" class="card card-1 border m-13 m-17">
+                                    <div class="card-img m-7"><img class="position-relative" src="assets/images/card-img-1.jpg" alt="card-img-1"></div>
+                                    <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                    <h3 class="m-7">Run It Up</h3>
+                                    <p class="m-7 fs-14">Songs for you</p>
+                                </div>
+                                <div data-folder="ncr" class=" card card-2 border m-13">
+                                    <div class="card-img m-7"><img src="assets/images/card-img-2.jpg" alt="card-img-2"></div>
+                                    <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                    <h3 class="m-7">Vartmaan</h3>
+                                    <p class="m-7 fs-14"> Songs for you</p>
+                                </div>
+                            
+                            
+                                <div class=" card card-3 border m-13 ">
+                                    <div class="card-img m-7"><img src="assets/images/card-img-3.jpg" alt="card-img-3"></div>
+                                    <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                    <h3 class="m-7">EVILJORDAN</h3>
+                                    <p class="m-7 fs-14">Songs for you</p>
+                                </div>
+                                <div class=" card card-4 border m-13 ">
+                                    <div class="card-img m-7"><img src="assets/images/card-img-4.jpg" alt="card-img-4"></div>
+                                    <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                    <h3 class="m-7">Premalo(From "Court")</h3>
+                                    <p class="m-7 fs-14">Songs for you</p>
+                                </div>
+                            
+                            
+                                <div class=" card card-5 border m-13 ">
+                                    <div class="card-img m-7"><img src="assets/images/card-img-5.jpg" alt="card-img-5"></div>
+                                    <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                    <h3 class="m-7">Paro</h3>
+                                    <p class="m-7 fs-14">Songs for you</p>
+                                </div>
+                                <div class=" card card-6 border m-13 ">
+                                    <div class="card-img m-7"><img src="assets/images/card-img-6.jpg" alt="card-img-6"></div>
+                                    <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                    <h3 class="m-7">Aashiq Tera</h3>
+                                    <p class="m-7 fs-14">Songs for you</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="popular-artist">
+                        <h1 class="righthead">Popular Artists</h1>
+                        <div class=" card-container-2 flex">
+                            <div class=" card card-1 border m-13">
+                                <div class="card-img m-7"><img src="assets/images/pritam.jpg" alt="card-img-1" ></div>
+                                <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                <h3 class="m-7">Pritam</h3>
+                                <p class="m-7 fs-14">Artist</p>
+                            </div>
+                            <div class=" card card-2 border m-13">
+                                <div class="card-img m-7"><img src="assets/images/a. r. rahman.jpg" alt="card-img-2" ></div>
+                                <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                <h3 class="m-7">A.R.Rahman</h3>
+                                <p class="m-7 fs-14">Artist</p>
+                            </div>
+                            <div class=" card card-3 border m-13">
+                                <div class="card-img m-7"><img  src="assets/images/arijit sing.jpg" alt="card-img-3" ></div>
+                                <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                <h3 class="m-7">Arijit Singh</h3>
+                                <p class="m-7 fs-14">Artist</p>
+                            </div>
+                            <div class=" card card-4 border m-13">
+                                <div class="card-img m-7"><img src="assets/images/sachin-jigar.jpg" alt="card-img-4" ></div>
+                                <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                <h3 class="m-7">Sachin-Jigar</h3>
+                                <p class="m-7 fs-14">Artist</p>
+                            </div>
+                            <div class=" card card-5 border m-13">
+                                <div class="card-img m-7"><img src="assets/images/vishal-sekhar.jpg" alt="card-img-5" ></div>
+                                <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                <h3 class="m-7">Vishal-Shekhar</h3>
+                                <p class="m-7 fs-14">Artist</p>
+                            </div>
+                            <div class=" card card-6 border m-13">
+                                <div class="card-img m-7 "><img src="assets/images/atif-aslam.jpg" alt="card-img-6" ></div>
+                                <div class="play-container"><button class="play-btn"><img src="assets/svg/play-btn.svg" alt="playbtn"></button></div>
+                                <h3 class="m-7">Atif Aslam</h3>
+                                <p class="m-7 fs-14">Artist</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="songs-controlers bg-1f">
+                        <div class="song-container-items flex justify-center">
+                            <div class="song-name"></div>
+                            <div class="controls-btn flex justify-center">
+                                <button class="previous-btn bg-remove none-border cursor-pointer"><img class="previous-btn-img invert width-35" src="assets/svg/previous.svg" alt="previous-btn"></button>
+                                <button class="song-play-btn bg-remove none-border cursor-pointer"><img class="play-btn-img invert width-35" src="assets/svg/song-play-button.svg" alt="song-play-btn"></button>
+                                <button class="next-btn bg-remove  none-border cursor-pointer"><img class="next-btn-img invert width-35" src="assets/svg/next.svg" alt="next-btn"></button>
+                            </div>
+                            <div class="song-information"></div>
+                            <div class="volume-container flex justify-center">
+                                
+                                    <div class="volume"><img class="invert volume-img" src="assets/svg/volume.svg" alt="volume"></div>
+                                    <div class="volume-range"><input class="ip-range" type="range"></div>                               
+                                
+                            </div>
+                        </div>
+                        <div class="seekbar cursor-pointer">
+                            <div class="circul cursor-pointer"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
